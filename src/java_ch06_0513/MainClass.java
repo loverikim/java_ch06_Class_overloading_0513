@@ -37,10 +37,19 @@ public class MainClass {
 		Car2 car4 = new Car2("포르쉐","911 터보 카브리올레","화이트");
 		Car2 car5 = new Car2();//,기본 생성자를 쓰기 위해서는 Car2 class에서 작성을 해줘야 함.
 		
+		Test test = new Test();
+		//test.sum1(null);null에 들어가는 값이 배열
+		int[] arrTest = {1,2,3,4,5};
+		test.sum1(arrTest);
+		test.sum2(car2);		
 		
+		System.out.println();
 		
-		
-		
+		PrinterExample printer = new PrinterExample();
+		printer.println(10);
+		printer.println(true);
+		printer.println(4.6);
+		printer.println("박서준");
 		
 	}
 
