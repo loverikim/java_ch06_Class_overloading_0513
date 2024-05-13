@@ -32,7 +32,7 @@ public class MainClass {
 		Car car2 = new Car(2);
 		Car2 car3 = new Car2("포르쉐","911 터보 카브리올레","화이트", 500);
 		System.out.println(car3.company);
-;
+
 
 		Car2 car4 = new Car2("포르쉐","911 터보 카브리올레","화이트");
 		Car2 car5 = new Car2();//,기본 생성자를 쓰기 위해서는 Car2 class에서 작성을 해줘야 함.
