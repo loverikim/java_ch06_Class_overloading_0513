@@ -55,6 +55,8 @@ public class MainClass {
 		printer.println(4.6);
 		printer.println("박서준");
 		
+		Student stu1 = new Student();
+		
 	}
 
 }
