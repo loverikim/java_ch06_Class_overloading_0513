@@ -62,6 +62,7 @@ public class MainClass {
 				
 		Worker worker1 = new Worker("홍길동", 27, "010-1234-5678", "서울시 용산구");
 		//메모리에 Worker객체가 만들어 지고 안에 값이 메모리에 저장됨 
+		
 	}
 
 }

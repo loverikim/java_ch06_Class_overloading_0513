@@ -1,7 +1,6 @@
 package java_ch06_0513;
 
-public class Worker {
-	
+public class Worker {	
 	
 	String name;
 	int age;
