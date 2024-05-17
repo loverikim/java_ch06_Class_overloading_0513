@@ -21,7 +21,7 @@ public class Worker {
 		this.age = age;
 		this.phone = phone;
 		this.address = address;
-		// 마우스 우클릭 source -> generate fild
+		// 마우스 우클릭 source -> generate field
 		
 		
 		
