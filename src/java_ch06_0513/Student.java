@@ -5,13 +5,13 @@ public class Student {
 	// 기본생성자와 이름만 매개변수로 가진 생성자 1
 	
 	// 이클립스에 자동생성 기능이 있음. 
+	// 기본 생성자와 생성자 무조건 2개는 기본으로 만들어 놔야 함.
 	public Student() {// 기본 생성자
-		super();// 부모클래스의 생성자 호출
-		
+		super();// 부모클래스의 생성자 호출		
 	}		
 	
 	public Student(String name, String hakbun, int age, String grade, String address) {
-		super();
+		super();			// 매개변수
 		
 		// 생성자 초기화
 		this.name = name;
@@ -33,8 +33,7 @@ public class Student {
 
 
 	// 학생 한명이 갖는 내용. 
-	String name;
-	
+	String name;	
 	String hakbun;
 	int age;
 	String grade;
