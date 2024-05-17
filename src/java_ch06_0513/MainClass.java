@@ -7,18 +7,22 @@ public class MainClass {
 		// 설계도를 사용해서 집을 짖는 작업
 		// 설계도를 사용해서 객체를 선언 -> 실물을 만듦, 메모리에 만들어진 실제 객체(instance) 생성.
         int a;
+        double b;
 		Calculator cal1 = new Calculator();//운명 타입 자체가 클래스 이름.
 		// Calculator 클래스로 new 연산자를 사용하여 cal1 객체를 생성				
 		// RAM(메모리)에 cal1  객체가 생성됨.		
 		// Calculator cal2 = new Calculator();
 		
 		a = cal1.add(100, 200);		
+		b = cal1.divid(10, 3);
 		
 		System.out.println(a);
 		
 		cal1.pow(10); //100
 		
+		// new 연산자
 		Car car = new Car(4); // Car 클래스로 car라는 객체를 선언
+		//new 연산자 생성자를 호출 반환타입 써주지 않아도 됨 public car()가 생략되어 있음 
 		
 		System.out.println(car.company);
 		car.speed = 150;
